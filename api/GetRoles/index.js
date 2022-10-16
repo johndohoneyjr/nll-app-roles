@@ -4,7 +4,7 @@ const fetch = require('node-fetch').default;
 const roleGroupMappings = {
     'admin': 'e16a3072-5cee-4a48-86f7-27d582f4698a',
     'reader': '33bb071c-118d-40d1-a5d7-7ced5900b973',
-    'callcenter': '39580bd9-40e5-4cd3-8265-513318a84cb6'
+    'callcenter': '49a2259a-6023-4763-990f-236da7b3ecdc'
 };
 
 module.exports = async function (context, req) {
