@@ -7,6 +7,10 @@
         {
             "route": "/authenticated/*",
             "allowedRoles": [ "authenticated" ]
+        },
+        {
+            "route": "/callcenter/*",
+            "allowedRoles": [ "callcenter" ]
         }
     ],
     "auth": {
